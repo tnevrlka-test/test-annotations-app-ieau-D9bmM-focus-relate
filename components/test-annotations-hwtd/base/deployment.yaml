@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-hwtd
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-ijxq-tenant/test-annotations-app-ieau/test-annotations-hwtd@sha256:3e32d5e046057cac4b88fd31992e7c5f722f256b7913bf8c0dfcb4c0c5e28ee1
         name: my-nginx
         ports:
         - containerPort: 8080
